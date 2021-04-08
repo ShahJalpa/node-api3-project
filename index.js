@@ -1,2 +1,6 @@
-//for the pullrequest
 // require your server and launch it
+const server = require("./api/server.js");
+
+server.listen(5000,() => {
+    console.log("Server is listening on port 5000")
+})
