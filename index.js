@@ -1,5 +1,5 @@
 // require your server and launch it
-const server = require("./api/server.js");
+const server = require("./api/server");
 
 server.listen(5000,() => {
     console.log("Server is listening on port 5000")
